@@ -34,13 +34,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is way of writing HTML that contextualizes the markup tags put in by the user, this is implemented in the language through the use of semantic tags. An example of this would be the <header> tag which contextualizes the content it contains by indicating that it belongs at the head of the page. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+ Display block puts items on their own line in an page as well as giving a box or block of space around the content. Inline keeps elements side-by-side and does not create space beyond the content width/height itself. 
 
 3. What are the 4 areas of the box model?
 
+    1. content
+    2. padding
+    3. border
+    4. margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items works on the cross-axis of the element(s) it is assigned to. The cross-axis runs perpendicular to the main-axis whose direction is defined by properties in flex-flow or flex-direction.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team of developers to have version control. Multiple copies of the same project which differant parts of the team can work on in tandem whilst allowing for older copys of the code to be revisted and reinstated if needed. This allows for features to be developed in relative isolation from the main code whilst still having access to it in case important changes are made which will affect the features (i.e rebase.) Upon completation the features can be brought into the current version of the product after thourough testing has affirmed their stability and proper function (i.e merge.)
+
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
