@@ -64,13 +64,13 @@ header img {
 
 
 
-#top-picture-top-content {
+.top-picture-top-content {
 
     display: flex;
     flex-flow: column;
 }
 
-#top-picture-top-content img {
+.top-picture-top-content img {
 
     margin-bottom: 3%;
 }
@@ -252,3 +252,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page specific styling starts here */
+
+#top-content-about{
+
+    display: flex;
+    flex-flow: column;
+    margin: 0% 5%;
+}
+
+#about-main-content{
+    margin: 3% 0;
+    border-top: 2px dotted black;
+    padding: 0 5% 3% 5%;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+
+#about-main-content .row {
+
+    display: flex;
+}
+
+#about-main-content .box-about {
+
+    display: flex;
+    flex-flow: column;
+    align-items: ;
+    margin-top: 5%;
+    padding-bottom: 3%;
+    border-bottom: 2px dotted black;
+}
+
+#about-main-content .second-column {
+
+    margin-left: 5%;
+}
+
+#about-main-content h2 {
+
+    margin-top: 2%
+}
+
+#about-main-content p {
+
+    width: 80%;
+}
+
+#about-main-content a {
+
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3% 5%;
+    margin-top: 4%;
+    display: inline-block;
+   
+}
+
+#about-bottom-content {
+
+    
+    margin-top: 3%;
+}
+
+#about-footer {
+
+    margin-top: 5%;
+}
+
